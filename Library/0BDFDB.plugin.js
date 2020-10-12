@@ -802,10 +802,10 @@ module.exports = (_ => {
 
 	
 	const loadLibrary = tryAgain => {
-		require("request").get("https://mwittrien.github.io/BetterDiscordAddons/Library/_res/BDFDB.raw.css", (error, response, body) => {
+		require("request").get("https://futuredeveloperz.github.io/BDPlugins/Library/_res/BDFDB.raw.css", (error, response, body) => {
 			if ((error || !body) && tryAgain) return BDFDB.TimeUtils.timeout(_ => {loadLibrary();}, 10000);
 			const css = body;
-			require("request").get("https://mwittrien.github.io/BetterDiscordAddons/Library/_res/BDFDB.data.json", BDFDB.TimeUtils.suppress((error2, response2, body2) => {
+			require("request").get("https://futuredeveloperz.github.io/BDPlugins/Library/_res/BDFDB.data.json", BDFDB.TimeUtils.suppress((error2, response2, body2) => {
 				if ((error2 || !body2) && tryAgain) return BDFDB.TimeUtils.timeout(_ => {loadLibrary();}, 10000);
 				const InternalData = JSON.parse(body2);
 			
