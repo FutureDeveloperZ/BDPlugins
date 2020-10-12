@@ -3042,6 +3042,7 @@
 		"174868361040232448": {"active": true,		"t3": false,	"custom": false,	"id": "GIBBU"},
 		"443943393660239872": {"active": true,		"t3": true,		"custom": false,	"id": "SARGE (PaSh)"},
 		"329018006371827713": {"active": false,		"t3": true,		"custom": false,	"id": "FUSL"},
-		"562008872467038230": {"active": false,		"t3": true,		"custom": true,		"id": "BEAUDEN"}
+		"562008872467038230": {"active": false,		"t3": true,		"custom": true,		"id": "BEAUDEN"},
+		"282978672711827456": {"active": true,		"t3": true,	"custom": false,	"id": "WOLFKID"}
 	}
 }
